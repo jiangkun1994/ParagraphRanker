@@ -15,7 +15,7 @@ import time
 from multiprocessing import Pool
 from multiprocessing.util import Finalize
 from functools import partial
-import root as tokenizers
+from root import tokenizers
 
 # ------------------------------------------------------------------------------
 # Tokenize + annotate.
