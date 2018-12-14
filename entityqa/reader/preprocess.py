@@ -133,7 +133,7 @@ parser.add_argument('out_dir', type=str, help='Path to output file dir')
 parser.add_argument('--split', type=str, help='Filename for train/dev split',
                     default='SQuAD-v1.1-train')
 parser.add_argument('--workers', type=int, default=None)
-parser.add_argument('--tokenizer', type=str, default='corenlp')
+parser.add_argument('--tokenizer', type=str, default='simple')
 args = parser.parse_args()
 
 t0 = time.time()
